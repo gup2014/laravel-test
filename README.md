@@ -15,7 +15,7 @@ OR USE
 
 So we use docker and Laravel. Before you are able to use this remember to stop all services for mysql/apache/nginx on local
 ```
-git clone git@github.com:ehidra/kallan-panel.git
+git clone git@github.com:gup2014/laravel-test.git
 cd laravel-test
 docker run --rm \
     -u "$(id -u):$(id -g)" \
