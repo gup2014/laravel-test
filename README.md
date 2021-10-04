@@ -61,7 +61,7 @@ You will get a json with the following structure:
 
 {
     'status': 200;
-    'data' : "Deadwood"
+    'response' : "Deadwood"
 }
 
 #Unit tests
@@ -73,3 +73,10 @@ OR
 ```
 
 ##How to improve
+In this Laravel documentation page we can find how to write an API correctly: https://laravel.com/docs/8.x/eloquent-resources
+But some quick tips can be:
+
+1.- Add an ApiKey or ApiToken to keep the control hover how many request or who is the requester of each request.
+If you want an open API like TV Maze maybe you can store the IP from the requester and no add an ApiKey.
+
+2.- Store on database more information of each TV show and add this data on each request.
