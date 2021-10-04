@@ -56,6 +56,14 @@ http://0.0.0.0/?q=girls
 http://0.0.0.0/?q=thriller
 ```
 
+##Api Response
+You will get a json with the following structure:
+
+{
+    'status': 200;
+    'data' : "Deadwood"
+}
+
 #Unit tests
 A several tests have beed added. To run them automatically, please run the following command:
 ```
